@@ -1,0 +1,157 @@
+{
+  "type": "CIMLayerDocument",
+  "version": "3.0.0",
+  "build": 36057,
+  "layers": [
+    "CIMPATH=map/layer.json"
+  ],
+  "layerDefinitions": [
+    {
+      "type": "CIMFeatureLayer",
+      "name": "Risk Assessment",
+      "uRI": "CIMPATH=map/layer.json",
+      "renderer": {
+        "type": "CIMUniqueValueRenderer",
+        "defaultLabel": "Other",
+        "defaultSymbol": {
+          "type": "CIMSymbolReference",
+          "symbol": {
+            "type": "CIMPolygonSymbol",
+            "symbolLayers": [
+              {
+                "type": "CIMSolidStroke",
+                "enable": true,
+                "color": {
+                  "type": "CIMRGBColor",
+                  "values": [110, 110, 110, 100]
+                },
+                "width": 0.7
+              },
+              {
+                "type": "CIMSolidFill",
+                "enable": true,
+                "color": {
+                  "type": "CIMRGBColor",
+                  "values": [130, 130, 130, 100]
+                }
+              }
+            ]
+          }
+        },
+        "fields": ["risk"],
+        "groups": [
+          {
+            "type": "CIMUniqueValueGroup",
+            "classes": [
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Low (1)",
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": ["1"]
+                  }
+                ],
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [0, 0, 0, 100]
+                        },
+                        "width": 0.7
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [216, 208, 224, 100]
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "Medium (2)",
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": ["2"]
+                  }
+                ],
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [0, 0, 0, 100]
+                        },
+                        "width": 0.7
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [181, 168, 200, 100]
+                        }
+                      }
+                    ]
+                  }
+                }
+              },
+              {
+                "type": "CIMUniqueValueClass",
+                "label": "High (3)",
+                "values": [
+                  {
+                    "type": "CIMUniqueValue",
+                    "fieldValues": ["3"]
+                  }
+                ],
+                "symbol": {
+                  "type": "CIMSymbolReference",
+                  "symbol": {
+                    "type": "CIMPolygonSymbol",
+                    "symbolLayers": [
+                      {
+                        "type": "CIMSolidStroke",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [0, 0, 0, 100]
+                        },
+                        "width": 0.7
+                      },
+                      {
+                        "type": "CIMSolidFill",
+                        "enable": true,
+                        "color": {
+                          "type": "CIMRGBColor",
+                          "values": [123, 107, 149, 100]
+                        }
+                      }
+                    ]
+                  }
+                }
+              }
+            ]
+          }
+        ]
+      }
+    }
+  ]
+}

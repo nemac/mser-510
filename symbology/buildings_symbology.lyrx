@@ -1,0 +1,53 @@
+{
+  "type": "CIMLayerDocument",
+  "version": "3.0.0",
+  "build": 36057,
+  "layers": [
+    "CIMPATH=map/layer.json"
+  ],
+  "layerDefinitions": [
+    {
+      "type": "CIMFeatureLayer",
+      "name": "Building Footprints",
+      "uRI": "CIMPATH=map/layer.json",
+      "renderer": {
+        "type": "CIMSimpleRenderer",
+        "symbol": {
+          "type": "CIMSymbolReference",
+          "symbol": {
+            "type": "CIMPolygonSymbol",
+            "symbolLayers": [
+              {
+                "type": "CIMSolidStroke",
+                "enable": true,
+                "color": {
+                  "type": "CIMRGBColor",
+                  "values": [
+                    40,
+                    40,
+                    40,
+                    100
+                  ]
+                },
+                "width": 0.4
+              },
+              {
+                "type": "CIMSolidFill",
+                "enable": true,
+                "color": {
+                  "type": "CIMRGBColor",
+                  "values": [
+                    61,
+                    61,
+                    61,
+                    100
+                  ]
+                }
+              }
+            ]
+          }
+        }
+      }
+    }
+  ]
+}
