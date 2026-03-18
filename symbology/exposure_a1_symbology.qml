@@ -1,6 +1,6 @@
 <!DOCTYPE qgis PUBLIC 'http://mrcc.com/qgis.dtd' 'SYSTEM'>
 <qgis version="3.28" styleCategories="Symbology">
-  <renderer-v2 type="categorizedSymbol" attr="exposure" symbollevels="0">
+  <renderer-v2 type="categorizedSymbol" attr="exposure_a1" symbollevels="0">
     <categories>
       <category value="0" symbol="0" label="Not Exposed (0)" render="true"/>
       <category value="1" symbol="1" label="Exposed (1)" render="true"/>

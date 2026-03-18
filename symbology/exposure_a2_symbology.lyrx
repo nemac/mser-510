@@ -8,7 +8,7 @@
   "layerDefinitions": [
     {
       "type": "CIMFeatureLayer",
-      "name": "Flood Exposure",
+      "name": "Flood Exposure \u2014 Asset 2",
       "uRI": "CIMPATH=map/layer.json",
       "renderer": {
         "type": "CIMUniqueValueRenderer",
@@ -49,7 +49,7 @@
           }
         },
         "fields": [
-          "exposure"
+          "exposure_a2"
         ],
         "groups": [
           {
