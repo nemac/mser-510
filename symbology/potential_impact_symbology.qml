@@ -8,7 +8,7 @@
       <category value="3" symbol="3" label="High (3)" render="true"/>
     </categories>
     <symbols>
-      <symbol type="fill" name="0" alpha="0.7" clip_to_extent="1" force_rhr="0">
+      <symbol type="fill" name="0" alpha="1" clip_to_extent="1" force_rhr="0">
         <layer class="SimpleFill" pass="0" locked="0" enabled="1">
           <Option type="Map">
             <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
@@ -25,7 +25,7 @@
           </Option>
         </layer>
       </symbol>
-      <symbol type="fill" name="1" alpha="0.7" clip_to_extent="1" force_rhr="0">
+      <symbol type="fill" name="1" alpha="1" clip_to_extent="1" force_rhr="0">
         <layer class="SimpleFill" pass="0" locked="0" enabled="1">
           <Option type="Map">
             <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
@@ -42,7 +42,7 @@
           </Option>
         </layer>
       </symbol>
-      <symbol type="fill" name="2" alpha="0.7" clip_to_extent="1" force_rhr="0">
+      <symbol type="fill" name="2" alpha="1" clip_to_extent="1" force_rhr="0">
         <layer class="SimpleFill" pass="0" locked="0" enabled="1">
           <Option type="Map">
             <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
@@ -59,7 +59,7 @@
           </Option>
         </layer>
       </symbol>
-      <symbol type="fill" name="3" alpha="0.7" clip_to_extent="1" force_rhr="0">
+      <symbol type="fill" name="3" alpha="1" clip_to_extent="1" force_rhr="0">
         <layer class="SimpleFill" pass="0" locked="0" enabled="1">
           <Option type="Map">
             <Option type="QString" value="3x:0,0,0,0,0,0" name="border_width_map_unit_scale"/>
